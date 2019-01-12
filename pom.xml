@@ -78,6 +78,11 @@
 		 	<version>5.0.5.RELEASE</version>
 		  	<scope>import</scope>
 		</dependency> -->
+		<dependency>
+		  <groupId>org.projectlombok</groupId>
+		  <artifactId>lombok</artifactId>
+		  <version>1.16.2</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -104,6 +109,5 @@
 		<module>ly-api-gateway</module>
 		<module>ly-item</module>
 		<module>ly-common</module>
-		<module>leyou-manage-web</module>
 	</modules>
 </project>
